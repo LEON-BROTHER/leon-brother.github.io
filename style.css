@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'fnf';
+    src: url('fonts/FridayFunkinRegular.eot');
+    src: url('fonts/FridayFunkinRegular.eot') format('embedded-opentype'), url('fonts/FridayFunkinRegular.woff2') format('woff2'), url('fonts/FridayFunkinRegular.woff') format('woff'), url('fonts/FridayFunkinRegular.ttf') format('truetype'), url('fonts/FridayFunkinRegular.svg#FridayFunkinRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'cooltext';
+    src: url('fonts/coolveticarg.eot');
+    src: url('fonts/coolveticarg.eot') format('embedded-opentype'), url('fonts/coolveticarg.woff2') format('woff2'), url('fonts/coolveticarg.woff') format('woff'), url('fonts/coolveticarg.ttf') format('truetype'), url('fonts/coolveticarg.svg#coolveticarg') format('svg');
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: black;
+    padding-left: 15%;
+    padding-right: 25%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+h1 {
+    font-family: "fnf";
+    color: white;
+    font-size: 89px;
+    font-weight: 100;
+    text-align: center;
+}
+
+h2 {
+    font-family: "cooltext";
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+}
+
+h3 {
+    font-family: "cooltext";
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+p {
+    font-family: "cooltext";
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+    text-align: center;
+}
+
+div.nav>a {
+    float: right;
+    font-family: "cooltext";
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition-duration: 0.3s
+}
+
+div.nav>a.selected {
+    color: lightskyblue;
+}
+
+div.nav>a:hover {
+    color: gray;
+}
+
+p.disclaimer {
+    font-family: "cooltext";
+    color: gray;
+    font-size: 10px;
+    text-align: center;
+}
+
+div.links {
+    text-align: center;
+}
+
+div.nav {
+    padding: 10px;
+    width: 400px;
+    float: right;
+}
+
+button {
+    background-color: #87cefa;
+    border-radius: 10px;
+    border: none;
+    font-family: "cooltext";
+    font-size: 18px;
+    margin: 7px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition-duration: 0.4s;
+    text-align: center;
+}
+
+button.discord {
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+button.download {
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+button.mac {
+    padding-left: 39px;
+    padding-right: 39px;
+}
+
+button.gamejolt {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #6ac8ff;
+    font-size: 22px;
+}
+
+button:disabled {
+    cursor: disabled;
+    background-color: #4381a5;
+}
