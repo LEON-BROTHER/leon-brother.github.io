@@ -55,7 +55,21 @@ p {
     font-weight: 100;
     text-align: center;
 }
-
+span {
+    font-family: "cooltext";
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+    text-align: center;
+    display: block;
+}
+li {
+    font-family: "cooltext";
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+    text-align: center;
+}
 div.nav>a {
     float: right;
     font-family: "cooltext";
