@@ -1,33 +1,21 @@
 <html>
-
-<head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/logo.png">
-    <title>FNF Mod Collection</title>
-</head>
-
-<body>
-    <header>
-        <nav>
-            <img src="images/logo.png" width="64" height="64">
-            <div class="nav">
-                <a href="changelogs.html">Changelogs</a>
-                <a class="selected" href="downloads.html">Downloads</a>
-                <a href="index.html">Homepage</a>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/logo.png">
+        <title>FNF Mod Collection</title>
+        <script src="script.js"></script>
+    </head>
+    <body onload="loadNav('downloads')">
+        <header></header>
+        <main>
+            <h2>Downloads</h2>
+            <div class="links">
+                <button disabled onclick="window.open('downloads.html')" class="windows">Windows Version</button>
+                <br>
+                <button disabled onclick="window.open('downloads.html')" class="mac">Mac Version</button>
             </div>
-        </nav>
-    </header>
-    <main>
-        <h1>FNF<br>MOD<br>COLLECTION</h1>
-        <h2>Downloads</h2>
-        <div class="links">
-            <button disabled onclick="window.open('downloads.html')" class="windows">Windows Version</button>
-            <br>
-            <button disabled onclick="window.open('downloads.html')" class="mac">Mac Version</button>
-        </div>
-        <p>Windows is currently down because I need to reupload the latest build. Sorry!</p>
-        <p>Mac Version is not done yet...</p>
-    </main>
-</body>
-
+            <p>Windows is currently down because I need to reupload the latest build. Sorry!</p>
+            <p>Mac Version is not done yet...</p>
+        </main>
+    </body>
 </html>
